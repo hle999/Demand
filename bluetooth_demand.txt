@@ -1,0 +1,19 @@
+Hello,
+I need a Android app to do some testings on a Bluetooth device.
+The app should work on all Android versions and I want to experiment with the Google Studio IDE also.
+-The device use a Bluetooth Transceiver RS232 / TTL to UART Module.
+-It should be possible to connect/disconnect to the device insert a pairing code for the device and store the settings if it is necessary.
+-I want to send one or more separated AT commands to the device
+-If I sent more than one command, the next command should be sent with a delay of 100-200ms when a predefined character will be received
+-The received data should be displayed in a multiline textbox and it should be possible to save it in a textfile.
+The look can be very simple, it is for experimental purposes only.
+But it should have exception handling if an error occurs.
+It would be great if I can predefine AT commands in the sourcecode for a dropdownbox also, which can be select and sent to the device.
+Regards
+OBD2Spy 
+
+
+Additional information: Submitted on 08/22/2014 at 15:26 EDT
+New:
+It should also be possible to connect to the same device with a WIFI module instead of the Bluetooth module.
+I want to select between WIFI or Bluetooth connection.
